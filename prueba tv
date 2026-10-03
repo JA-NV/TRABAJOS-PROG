@@ -1,0 +1,46 @@
+package tv;
+
+
+public class Prueba {
+
+     public static void main(String[] args) {
+      
+        TV tv1 = new TV();
+        TV tv2 = new TV();
+        TV tv3 = new TV(); 
+        
+        // valores de prueba
+        tv1.marca = "Samsung";
+        tv1.pulgadas = 45;
+        tv1.volumen = 7;
+
+        tv2.marca = "JVC";
+        tv2.pulgadas = 105;
+        tv2.volumen = 15;
+
+        tv3.marca = "Roku";
+        tv3.pulgadas = 35;
+        tv3.volumen = 12;
+       
+        System.out.println("--- Prueba tv 1 ---");
+        tv1.encender();
+        tv1.subirVolumen();
+        tv1.bajarVolumen();
+        tv1.apagar();
+        System.out.println("-------------------");
+        
+        System.out.println("--- Prueba tv 2 ---");
+        tv2.encender();
+        tv2.subirVolumen();
+        tv2.bajarVolumen();
+        tv2.apagar();
+        System.out.println("-------------------");
+        
+        System.out.println("--- Prueba tv 3 ---");
+        tv3.encender();
+        tv3.subirVolumen();
+        tv3.bajarVolumen();
+        tv3.apagar();
+        System.out.println("-------------------");
+     }
+}
