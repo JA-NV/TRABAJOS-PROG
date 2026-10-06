@@ -1,0 +1,49 @@
+public class Calculadora {
+
+  
+    public int sumar(int a, int b) {
+        return a + b;
+    }
+
+    public int restar(int a, int b) {
+        return a - b;
+    }
+
+    public int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    public int dividir(int a, int b) {
+        if (b == 0) {
+            System.out.println("No se puede dividir entre cero.");
+            return 0;
+        }
+        return a / b;
+    }
+
+
+    public int sumar3(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public int restar3(int a, int b, int c) {
+        return a - b - c;
+    }
+
+    public int multiplicar3(int a, int b, int c) {
+        return a * b * c;
+    }
+
+  
+    public int sumar4(int a, int b, int c, int d) {
+        return a + b + c + d;
+    }
+
+    public int restar4(int a, int b, int c, int d) {
+        return a - b - c - d;
+    }
+
+    public int multiplicar4(int a, int b, int c, int d) {
+        return a * b * c * d;
+    }
+}
