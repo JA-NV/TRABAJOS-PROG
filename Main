@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        Calculadora calc = new Calculadora();
+
+        System.out.println("=== 2 Parametros ===");
+        System.out.println("5 + 3 = " + calc.sumar(5, 3));
+        System.out.println("10 - 4 = " + calc.restar(10, 4));
+        System.out.println("6 * 7 = " + calc.multiplicar(6, 7));
+        System.out.println("20 / 0 = " + calc.dividir(20, 0));
+
+        System.out.println("\n=== 3 Parametros ===");
+        System.out.println("5 + 3 + 2 = " + calc.sumar3(5, 3, 2));
+        System.out.println("10 - 4 - 2 = " + calc.restar3(10, 4, 2));
+        System.out.println("2 * 3 * 4 = " + calc.multiplicar3(2, 3, 4));
+
+        System.out.println("\n=== 4 Parametros ===");
+        System.out.println("1 + 2 + 3 + 4 = " + calc.sumar4(1, 2, 3, 4));
+        System.out.println("20 - 5 - 3 - 2 = " + calc.restar4(20, 5, 3, 2));
+        System.out.println("2 * 2 * 2 * 2 = " + calc.multiplicar4(2, 2, 2, 2));
+  
+
+    }
+}
